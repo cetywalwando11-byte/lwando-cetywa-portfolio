@@ -1,0 +1,67 @@
+body {
+  scroll-behavior: smooth;
+  background: url("images/background.jpg") no-repeat center center/cover;
+}
+
+text {
+  font-family: 'Poppins', sans-serif;
+  color: #f8f9fa;
+  background-color: #121212;
+  line-height: 1.6;
+}
+h1, h2, h3 {
+  color: #ffffff;
+}
+p, label, input, textarea, button {
+  color: #e0e0e0;
+}
+
+.hero {
+  height: 100vh;
+  background:rgba(0,0,0,0);
+}
+
+.profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid #17a2b8;
+  object-fit: cover;
+}
+
+.skill-box {
+  background-color:aliceblue;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+.skill-box:hover {
+  transform: scale(1.1);
+}
+form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #1e1e1e;
+  color: #fff;
+}
+form button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #0d6efd;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+form button:hover {
+  background-color: #0b5ed7;
+
+footer {
+  background-color:#111;
+}
